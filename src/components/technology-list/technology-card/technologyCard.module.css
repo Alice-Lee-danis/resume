@@ -1,0 +1,32 @@
+.card {
+    background-color: rgb(29, 27, 39);
+    padding: 20px 20px 50px 20px;
+    position: relative;
+}
+
+.card__level{
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(103, 101, 113);
+}
+
+.card__stack {
+    margin-top: 15px;
+}
+
+.card__framework {
+    margin-top: 5px; 
+    width: 80%;
+}
+
+.card_design {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+
+@media screen and (max-width:590px) {
+    .card_design{
+        display: none;
+    }
+}

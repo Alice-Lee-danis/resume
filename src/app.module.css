@@ -1,0 +1,17 @@
+.app {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    padding: 8% 40px 0 40px;
+}
+
+.card {
+    display: flex;
+    height: 100%;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+}

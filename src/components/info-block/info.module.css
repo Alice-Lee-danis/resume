@@ -1,0 +1,44 @@
+.info {
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.info__title {
+    font-size: 50px;
+}
+
+.info__content {
+    margin-top: 40px;
+    max-width: 410px;
+    line-height: 24px;
+}
+
+.info__contact {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+
+.info__contact a {
+    text-decoration: none;
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+}
+
+.info__contact p{
+    color: rgb(70, 163, 225);
+}
+
+.info__content__important {
+    color: rgb(70, 163, 225);
+}
+
+.habr {
+    height: 25px;
+}
+
+.git {
+    height: 30px;
+}
