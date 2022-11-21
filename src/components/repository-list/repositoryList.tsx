@@ -20,7 +20,7 @@ const RepositoryList:React.FC = ()=>{
             {
                 arrRepository.map((x:ItypeRepository)=>{
                     return (
-                        <RepositoryCard name={x.name} stack={x.stack} libraries={x.libraries} language = {x.language} link={x.link}></RepositoryCard>
+                        <RepositoryCard key={x.name} name={x.name} stack={x.stack} libraries={x.libraries} language = {x.language} link={x.link}></RepositoryCard>
                     )})
             }
             

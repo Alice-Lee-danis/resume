@@ -19,7 +19,7 @@ const TechnologyList:React.FC = ()=>{
     return (
         <div className={classes.list}>
             {arrTechnology.map((x:ITechnologyType)=>{
-                return (<TechnologyCard language={x.language} level={x.level} stack={x.stack} libraries={x.libraries}></TechnologyCard>)
+                return (<TechnologyCard key={x.language} language={x.language} level={x.level} stack={x.stack} libraries={x.libraries}></TechnologyCard>)
             })}
         </div>
     )
